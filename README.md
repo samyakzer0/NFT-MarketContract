@@ -56,13 +56,7 @@ The NFT Marketplace contract is written in Solidity and follows the ERC-721 stan
 - **Marketplace**: Handles the listing and buying of NFTs.
 - **Auction**: Allows NFTs to be auctioned and bids to be placed.
 
-### Key Functions
-
-- `mint(string memory tokenURI)`: Mints a new NFT.
-- `listItem(uint256 tokenId, uint256 price)`: Lists an NFT for sale.
-- `buyItem(uint256 tokenId)`: Purchases an NFT.
-- `startAuction(uint256 tokenId, uint256 startPrice, uint256 endTime)`: Starts an auction for an NFT.
-- `bid(uint256 auctionId)`: Places a bid in an auction.
+---
 
 ## License
 
